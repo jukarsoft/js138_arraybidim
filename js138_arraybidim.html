@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrays bidimensionales</title>
+
+	<script type="text/javascript">
+		var datos = new Array(); 
+		datos[0] = new Array(1, 4, 5);
+		datos[1] = new Array(7, 0, 5);
+		datos[2] = new Array(2, 1, 9);
+
+		for (f in datos) {
+			for (c in datos[f]) { 
+				document.write('['+f+']['+c+'] '+datos[f][c]+'<br>');
+			} 
+		}
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
